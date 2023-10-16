@@ -1,10 +1,59 @@
-.header {
-    color: black;
+:root{
+    --greatColor: #800020
+}
+h1 {
+    color: whitesmoke;
     font-family: 'Times New Roman', Times, serif;
-    background-color: orangered;
+    background-color: var(--greatColor);
 }
 .h2
 {
 font-family: 'Times New Roman', Times, serif;
 background-color: chocolate;
+}
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aqua;
+}
+#navBar {
+    text-decoration: none;
+    padding: 1rem;
+    color: black;
+}
+#navBar a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    border: solid black;
+}
+#button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--greatColor);
+    color: whitesmoke;
+    font-weight: 800;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+aside {
+    text-align: center;
+}
+#table {
+    text-align: center;
+}
+#navBar {
+    text-align: right;
+    padding: 1rem;
+  /* letter-spacing: 4px; */
+  margin: 0 50px;
+  word-spacing: 100px;
+}
+@media screen and (max-width:700px){
+    body {
+        background-color: var(--greatColor);
+
+    }   
 }
